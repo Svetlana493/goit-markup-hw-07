@@ -1,4 +1,4 @@
-.agree {
+.icon-check-mark {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,7 +20,7 @@
     }
     &__input {
         appearance: none;
-        &:checked+.agree__icon {
+        &:checked+.icon-check-mark {
             border-color: $accent-color;
             background-color: $accent-color;
             background-image: url('../images/check.svg#check-icon');
