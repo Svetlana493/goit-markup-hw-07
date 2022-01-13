@@ -343,7 +343,7 @@ header {
     margin-bottom: 10px;
 }
 
-.features_item {
+.features__item {
     min-width: 270px;
 }
 
@@ -356,7 +356,7 @@ header {
     padding: 0;
 }
 
-.features_icon {
+.features__icon {
     width: 70px;
     height: 70px;
     margin: 25px 100px;
