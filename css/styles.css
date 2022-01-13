@@ -343,11 +343,11 @@ header {
     margin-bottom: 10px;
 }
 
-.features .item {
+.features_item {
     min-width: 270px;
 }
 
-.bg-color-features {
+.features__wrap {
     display: inline-flex;
     width: 270px;
     background: var(--primary-button-bg-color);
@@ -356,7 +356,7 @@ header {
     padding: 0;
 }
 
-.icon-features {
+.features_icon {
     width: 70px;
     height: 70px;
     margin: 25px 100px;
