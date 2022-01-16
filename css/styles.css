@@ -83,7 +83,7 @@ header {
 
 .site-nav {
     display: flex;
-    padding-left: 0;
+    padding-left: 93px;
 }
 
 .site-nav .item:not(:last-child) {
@@ -343,11 +343,11 @@ header {
     margin-bottom: 10px;
 }
 
-.features__item {
+.features .item {
     min-width: 270px;
 }
 
-.features__wrap {
+.bg-color-features {
     display: inline-flex;
     width: 270px;
     background: var(--primary-button-bg-color);
@@ -356,7 +356,7 @@ header {
     padding: 0;
 }
 
-.features__icon {
+.icon-features {
     width: 70px;
     height: 70px;
     margin: 25px 100px;
